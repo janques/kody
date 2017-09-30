@@ -25,15 +25,15 @@ int main(int argc, char **argv)
     {
         cout <<"Suma jest równa: "<<a+b;
     }
-    if (znak == '-')
+    else if (znak == '-')
     {
         cout <<"Różnica jest równa: "<<a-b;
     }
-    if (znak == '*')
+    else if (znak == '*')
     {
         cout<<"Iloczyn jest równy: "<<a*b;
     }
-    if (znak == '/')
+    else if (znak == '/')
     {
         cout<<"Iloraz jest równy: "<<a/b;
     }
