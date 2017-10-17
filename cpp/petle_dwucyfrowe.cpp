@@ -6,17 +6,28 @@
 
 #include <iostream>
 
-using namepsace std;
+using namespace std;
 
 int main(int argc, char **argv)
 {
-    int n=0;
-    int m=0;
-    cout << "Podaj zakres <m, n> <10, 99>: "<<endl;
-    
-    while(true)
+    int m=0; 
+    int n=0; 
+   
+    while(m<10 || n>99 || m>n)
     {
-        if(m<10 || n>99 || m>n)
+        cout<<"Podaj pierwsza liczbe:";
+        cin>>m;
+        cout<<"Podaj druga liczbe:";
+        cin>>n;
+    }
+    while(m<=n)
+    {
+        if(m%2 == 0 && m%3 == 0)
+        {
+            cout<<m<<endl;
+        }
+        m++;
+    }
     
     return 0;
 }
