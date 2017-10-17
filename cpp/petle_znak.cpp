@@ -10,16 +10,21 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    char zn='0';
+    char zn='t'; //deklaracja
    
     cout<<"Zgaduj!"<<endl;
    
-    while(zn !='t' && zn !='T' && zn !='n' && zn !='N' )
+    while(zn == 't' || zn == 'T' || zn == 'n' || zn == 'N')
     {
-        cout<<"Podaj literę: ";
+        cout<<"Podaj znak: ";
         cin>>zn;
+        //if (zn == 't' || zn == 'T' || zn == 'n' || zn == 'N')
+            //cout <<zn<<endl;
+        //else
+            //break;
+        
     }
-        cout<<"Brawo zgadles!"<<endl;
+        cout<<"Brawo zgadłeś!"<<endl;
  
     
     
