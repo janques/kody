@@ -20,7 +20,7 @@ void zwieksz2(int liczba, int krok) // przekazywanie przez wartość
     liczba += krok;
     cout <<"Liczba: " << liczba << endl;
 }
-void zwieksz3(int &liczba, int &krok) // przekazywanie przez wartość &- operator przenoszenia adresu
+void zwieksz3(int &liczba, int &krok) // przekazywanie przez referencje &- operator przenoszenia adresu
 {
     liczba += krok;
     cout <<"Liczba: " << liczba << endl;
