@@ -4,7 +4,7 @@
 # osoba = "Jan Kiełczewski"
 # osoba = 'Jan Kiełczewski'
 osoba = input('Jak się nazywasz?\n')
-print("Witaj", osoba, "!")
+print('Witaj', osoba, '!')
 
 rok = 2017
 wiek = int(input('Ile masz lat?\n'))
