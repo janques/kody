@@ -6,15 +6,25 @@
 
 def potega_it(podst, wykladnik):
     """Funkcja oblicza iteracyjnie potęgę l. naturalnej"""
-    wynik = ...
-    for i in range(wykladnik):
-        wynik = ...
+    wynik = 1
+    i = 1
+    # for i in range(wykladnik):
+    
+    while i<=wykladnik:
+        wynik = wynik*podst
+        i += 1
     return wynik
 
 def main(args):
     # pobierz od użytkownika podstawę i wykładnik
     # i przypisz do odpowiednich zmiennych
     # wywołaj funkcję potega_it()
+    podstawa = int(input("Podaj podstawę potęgi: "))
+    wykladnik = int(input("Podaj wykładnik potęgi: "))
+    
+    print("Wynik: ", potega_it(podstawa, wykladnik))
+    
+    
     return 0
 
 

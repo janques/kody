@@ -11,12 +11,12 @@ int main(int argc, char **argv)
 {
     int a = 0;
     
-	cout<<"Licze pole i obwód kwadratu! Pomóz mi!" << endl;
-	cout<<"Podaj długość boku a: ";
+	cout<<"Licze pole i obwod kwadratu! Pomoz mi!" << endl;
+	cout<<"Podaj dlugosc boku a: ";
     cin >> a;
     
     cout<<"Pole kwadratu = "<< a*a<<endl;
-    cout<<"Obwód kwadratu = "<< a*4<<endl;
+    cout<<"Obwod kwadratu = "<< a*4<<endl;
     
 	return 0;
 }
