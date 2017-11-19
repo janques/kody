@@ -14,13 +14,15 @@ def main(args):
     # pobierz od użytkownika podstawę i wykładnik
     # i przypisz do odpowiednich zmiennych
     # wywołaj funkcję potega_it()
-    a = int(input("Podaj liczbę: "))
-    assert type(a) == int
+    n = int(input("Podaj liczbę: "))
+    assert type(n) == int
 
     assert silnia_it(0) == 1
     assert silnia_it(1) == 1
     assert silnia_it(2) == 2
     assert silnia_it(5) == 120
+    
+    print("Silnia jest równa: ", silnia_it(n))
 
 
 
