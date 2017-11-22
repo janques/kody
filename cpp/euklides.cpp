@@ -22,7 +22,7 @@ int nwd(int a, int b)
 
 int main(int argc, char **argv)
 {
-	int a = 0;
+    int a = 0;
     int b = 0;
     
     cout<<"Podaj pierwsza liczbe: ";
