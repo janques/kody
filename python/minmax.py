@@ -28,12 +28,12 @@ def minmax(lista):
         if lista[indeks] > lista[indeks + 1]:
             lmax.append(lista[indeks])
             lmin.append(lista[indeks + 1])
-        elif lista[indeks] < lista[indeks + 1]:
+        else:
             lmax.append(lista[indeks+1])
             lmin.append(lista[indeks])
         indeks += 2
     print("Lista max: ", lmax)
-    print("Lista max: ", lmax)
+    print("Lista min: ", lmin)
 
     return lmax, lmin
 
@@ -52,6 +52,7 @@ def main(args):
     assert minimum([7, 4, 9, 1, 3, 0]) == 0
     assert maksimum([7, 4, 9, 1, 3, 0]) == 9
     print(lista)
+    minmax(lista)
     print("Minimum: ", minimum(lista))
     print("Maksimum: ", maksimum(lista))
     return 0
