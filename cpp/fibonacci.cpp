@@ -8,24 +8,23 @@
 
 using namespace std;
 
+int fib_iter(int n)
+{
+    int a = 0;
+    int b = 1;
+    if (n == 0) {
+        cout << 0;
+        return 0;
+    }
+    cout << a;
+    for (int i=2; i < n; i++) {
+        
+    }
+}
+
 int main(int argc, char **argv)
 {
-    int ile=0;
-    int fib[1000];
-    
-    fib[0] = 0;
-    fib[1] = 1;
-    fib[2] = 1;
-    
-	cout<<"Ile liczb ciagu:";
-    cin>>ile;
-    
-    for(int i=2;i<ile;i++)
-    {
-        fib[i] = fib[i-2] + fib[i-1];
-        
-        cout<<i-2<<" wyraz ciagu: "<<fib[i]<<endl;
-}
+	
 	return 0;
 }
 

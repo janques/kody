@@ -9,28 +9,38 @@ def fib_iter(n):
     F(1) = 1
     F(n) = F(n-2) + F(n-1) dla n > 1
     """
-
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
     a, b = (0, 1)
-    print(a)
+    if n == 0:
+        print(a)
+        return a
+    elif n == 1:
+        print(b)
+        return b
 
-    for i in range(1, n):
-        b = a + b
-        a = b
-        print (a, " ", b, " ", b / a)
+    print(a)
+    print(b)
+    for i in range(2, n):
+        # tmp = b
+        # b = a + b
+        # a = tmp
+        a, b = b, a + b
+        print(a, "Wyraz ", i, ": ", b, "Iloraz: ", b / a)
 
     return b
 
 
+def fib_iter2(n):
+    a, b = (0, 1)
+    print(a)
+    while n > 0:
+        a, b = b, a + b
+        print(a, "Wyraz: ", b, "Iloraz: ", b / a)
+        n = n - 1
+    return b
+
+
 def main(args):
-    n = int(input("Numer wyrazu w ciągu: "))
-    
-    
-    
-    print("Wyraz {:d} = {:d}".format(n, fib_iter(n)))
+    fib_iter2(10)
     return 0
 
 
