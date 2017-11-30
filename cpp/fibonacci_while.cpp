@@ -1,5 +1,5 @@
 /*
- * fibonacci.cpp
+ * fibonacci_while.cpp
  * 
  */
 
@@ -8,24 +8,31 @@
 
 using namespace std;
 
+
 void fib_iter(int n)
 {
     int a = 0;
     int b = 1;
-    int tmp = 0; 
+    int i = 1;
+    int tmp = 0;
     if (n == 0) 
     {
         cout << 0;
     }
     cout << a;
-    for (int i=1; i<n; i++) {
+    while(n>0)
+    {
         tmp = b;
         b = a + b;
         a = tmp;
-        cout<<"Wyraz nr."<<i+1<<": "<<a<<endl;
+        
+        cout<<"Wyraz nr."<<i<<": "<<a<<"  ";
         cout<<"Zlota liczba: "<<float(b)/float(a)<<endl;
-        }
+        i++;
+        n--;
+    }
 }
+
 int main(int argc, char **argv)
 {
 	int ile = 0;
