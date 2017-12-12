@@ -47,8 +47,12 @@ def fib_rek(n):
     return fib_rek(n - 2) + fib_rek(n - 1)
 
 def main(args):
+    ile = int(input("Ile liczb ciagu: "))
     # fib_iter2(10)
-    print(fib_rek(ile))
+    for i in range(ile):
+        print(i + 1, " wyraz ciagu to: ", fib_rek(i))
+    
+    
     return 0
 
 

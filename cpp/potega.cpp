@@ -8,6 +8,15 @@
 
 using namespace std;
 
+float potega_rek(float a, float n)
+{
+	if(n == 0)
+		return 1;
+	return potega_rek(a, n-1) * a;
+}
+
+
+
 float potega_it(float podstawa, float wykladnik)
 {
     float wynik = 1;
@@ -27,7 +36,7 @@ int main(int argc, char **argv)
     cin>> podstawa;
     cout<<"Podaj wykladnik potegi: ";
     cin>> wykladnik;
-    cout<<"Wynik: " << potega_it(podstawa, wykladnik) << endl;
+    cout<<"Wynik: " << potega_rek(podstawa, wykladnik) << endl;
     
 	return 0;
 }
