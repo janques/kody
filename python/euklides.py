@@ -18,14 +18,20 @@ def nwd2(a, b):
     return b
 
 
+def euklides_rek(a, b):
+    if b == 0:
+        return a
+    return euklides_rek(b, a % b)
+
+
 def main(args):
     a = int(input("Podaj liczbę: "))
     b = int(input("Podaj liczbę: "))
 
-    assert nwd2(1989, 867) == 51
-    assert nwd2(100, 25) == 25
+    assert euklides_rek(1989, 867) == 51
+    assert euklides_rek(100, 25) == 25
 
-    print("Nwd({:d}, {:d}) = {:d}".format(a, b, nwd2(a, b)))
+    print("Nwd({:d}, {:d}) = {:d}".format(a, b, euklides_rek(a, b)))
 
     return 0
 

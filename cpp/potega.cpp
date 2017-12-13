@@ -8,7 +8,7 @@
 
 using namespace std;
 
-float potega_rek(float a, float n)
+float potega_rek(float a, int n)
 {
 	if(n == 0)
 		return 1;
@@ -17,7 +17,7 @@ float potega_rek(float a, float n)
 
 
 
-float potega_it(float podstawa, float wykladnik)
+float potega_it(float podstawa, int wykladnik)
 {
     float wynik = 1;
     for (int i = 1; i<= wykladnik; i++)
@@ -30,7 +30,7 @@ float potega_it(float podstawa, float wykladnik)
 int main(int argc, char **argv)
 {
 	float podstawa;
-    float wykladnik;
+    int wykladnik;
     
     cout<<"Podaj podstawe potegi: ";
     cin>> podstawa;
