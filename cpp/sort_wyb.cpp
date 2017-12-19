@@ -5,12 +5,17 @@
 
 
 #include <iostream>
+#include <windows.h>
+#include <time.h>
+
 
 using namespace std;
 
 void wypelnij(int t[], int n, int m)
 {
     srand(time(NULL));
+    
+    
     for (int i = 0; i < n; i++)
     {
         t[i] = 1 + rand() % m; // losowanie liczb całkowitych z zakresu <0; m>
@@ -23,6 +28,7 @@ void drukuj(int t[], int n)
     {
         cout << t[i] << " ";
     }
+    cout<<endl;
 }
 
 
@@ -58,6 +64,9 @@ int main(int argc, char **argv)
     int tab[ile];
     wypelnij(tab, ile, 20);
     drukuj(tab, ile);
+    
+    sort_wyb(tab,ile);
+    drukuj(tab,ile);
 	return 0;
 }
 
