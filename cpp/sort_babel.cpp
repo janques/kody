@@ -5,6 +5,8 @@
 
 
 #include <iostream>
+#include <windows.h>
+#include <time.h>
 
 using namespace std;
 
@@ -41,7 +43,10 @@ void sort_babel(int t[], int n)
     {
         for(int j = 1; j < n; j++)
         {
-            
+            if(t[j] < t[j-1])
+            {
+                zamien(t[j], t[j-1]);
+            }
         }
     }
 }
