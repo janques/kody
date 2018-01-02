@@ -15,7 +15,7 @@ def sort_wstaw(lista):
 
 
 def main(args):
-    lista = [4, 3, 7, 0, 2, 3, 1, 9, -4]
+    lista = [4, 3, 7, 0, 2, 3, 1, 9,]
     lista = [9, 8, 7, 6, 5, 4, 3, 2, 1]
     print(lista)
     # [3, 4, 7, 0, 2, 3, 1, 9]
