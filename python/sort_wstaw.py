@@ -13,10 +13,34 @@ def sort_wstaw(lista):
         lista[k + 1] = el  # wstawianie elementu
     return lista
 
+def wyszukaj_bin_it(lista, el):
+    lewy, prawy = 0, len(lista) - 1
+    while lewy < prawy:
+        srodek = floor((lewy + prawy) / 2)
+        # print(srodek)
+        if el <= lista[srodek]:
+            prawy = srodek
+        else:
+            lewy = srodek + 1
+    if lista[lewy] == el:
+        return lewy  # znaleziono element
+
+
+    return -1  # elementu nie znaleziono
+
+
+def sort_wstaw_bin(lista):
+    """wersja binarna"""
+    for i in range(1, len(lista)):
+        el = lista[i]
+        k = wyszukaj_bin(lewy, prawy, lista, el)
+
+        # tworzenie listy z wstawionym elementem
+        lista =
 
 def main(args):
     lista = [4, 3, 7, 0, 2, 3, 1, 9,]
-    lista = [9, 8, 7, 6, 5, 4, 3, 2, 1]
+    # lista = [9, 8, 7, 6, 5, 4, 3, 2, 1]
     print(lista)
     # [3, 4, 7, 0, 2, 3, 1, 9]
     # [3, 4, 7, 0, 2, 3, 1, 9]
