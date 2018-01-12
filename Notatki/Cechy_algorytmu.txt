@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-12T11:13:06+01:00
+
+====== Cechy algorytmu ======
+Created piątek 12 styczeń 2018
+
+====== Własności ======
+
+1. Poprawność
+2. Skończoność
+3. Złożoność
+4. Efektywność
+
+Specyfikacja problemu to określenie celu algorytmu, danych początkowych. Jest mozliwe, że algorytm jest **częściowo poprawny**, jeśli dla obliczeń, które się skończą, ich wyniki są poprawne względem warunków początkowych i końcowych.
+
+Wnioskowanie indukcyjne jest metodą dowodzenia czegoś, wyprowadzenia wniosków. ( **w celu uogólnienia!**)
+Dedukcja (jest prawo ogólne, próbujemy je wytłumaczyć na przypadki szczególne, **od ogółu do szczegółu!**)
+Należy uważać na **błędy logiczne!**
