@@ -8,12 +8,21 @@ Created piątek 12 styczeń 2018
 ====== Własności ======
 
 1. Poprawność
-2. Skończoność
-3. Złożoność
-4. Efektywność
+2. Skończoność ( dla każdego poprawnego typu danych powinien się zakończyć)
+3. Złożoność (czasowa, pamięciowa) 
+4. Efektywność (bierze pod uwagę praktyczne zastosowanie algorytmu w programie)
 
 Specyfikacja problemu to określenie celu algorytmu, danych początkowych. Jest mozliwe, że algorytm jest **częściowo poprawny**, jeśli dla obliczeń, które się skończą, ich wyniki są poprawne względem warunków początkowych i końcowych.
 
 Wnioskowanie indukcyjne jest metodą dowodzenia czegoś, wyprowadzenia wniosków. ( **w celu uogólnienia!**)
 Dedukcja (jest prawo ogólne, próbujemy je wytłumaczyć na przypadki szczególne, **od ogółu do szczegółu!**)
 Należy uważać na **błędy logiczne!**
+
+
+Złożoność czasowa (zapis) ------> O(n), O(n^2), O(n!) ( rząd wielkości liczby operacji wykonywanych przez algorytm)
+Złożoność pamięciowa (ile pamięci potrzebuje by zakończyć działanie) 
+
+**Algorytmy rekurencyjne są bardziej obciążające niż iteracyjne!** 
+
+
+Efektywność algorytmu zależy od typu danych. 
