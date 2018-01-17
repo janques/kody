@@ -1,0 +1,55 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-17T11:58:32+01:00
+
+====== Systemy numeryczne ======
+Created środa 17 styczeń 2018
+
+==== 1) Systemy addytywne ====
+System liczbowy rzymski:
+1 => I
+2 => II
+3 => III
+4 => IV
+5 => VI
+50 => L
+90 => XC
+500 => D
+1000 => M
+
+
+MMXVIII - 2018
+MDXXX - 1530
+MCCCLXIV - 1364
+
+==== 2) Systemy pozycyjne ====
+
+== System o podstawie 10 ==
+123(10) = a(n-1)*p^(n-1) + a(n-2)*p^(n-2)*+...+a1*p^1+a0*p^0;
+123(10) = 1 * 10^2 + 2 * 10^1 + 3 * 10^0 = 123
+
+234(6) = 2 * 6^2 + 3 * 6^1 + 4 * 6^0 = 72 + 18 + 4 = 94
+234(4) ---- nie istnieje
+234(5) = 2 * 5^2 + 3 * 5^1 + 4 * 5^0 = 50 + 15 + 4 = 69
+
+== System o podstawie 2 ==
+128,64,32,16,8,4,2,1
+
+1111_{2} = 8 + 4 + 2 + 1 = 15 
+1001_{2}= 8 + 1 = 9
+
+10010011_{2 }= 128 + 0 + 0 + 16 + 0 + 0 + 2 + 1 = 147
+
+8bit = krótkie słowo(1bajt)(SHORT WORD), maks. 255(10)
+16bit = słowo (2 bajty) (WORD)
+32bit = długie słowo (podójne słowo) (4 bajty) (DOUBLE WORD)
+64bit = poczwórne (8 bajty)
+
+== System o podstawie 8 ==
+0-7
+644_{8}= 6 * 8^2 + 4 * 8^1 + 4 * 8^0 = 6 * 64 + 32 + 4 = 420
+
+== System o podstawie 16 ==
+0-9, A,B,C,D,E,F
+11111111_{2}=255_{10}=FF_{16}
+FF= 15*16^1 + 15 * 16^0 = 255
