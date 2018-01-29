@@ -50,7 +50,14 @@ int main(int argc, char **argv)
     while (i - 1 >= 0)
     {
         i--;
-        cout << reszty[i];
+        if(podstawa > 10 && reszty[i]>=10)
+        {
+            cout<< (char)(reszty[i]+55);
+        }
+        else
+        {
+            cout<<reszty[i];
+        }
         
     }
     
