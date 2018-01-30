@@ -33,7 +33,12 @@ def other2dec(liczba, podstawa):
     liczba10 = 0
     potega = len(liczba) - 1
     for cyfra in liczba:
-        liczba10 += int(cyfra) * (podstawa ** potega)
+        if not cyfra.isdigit():
+            liczba10 += (ord(cyfra.upper()) - 55) * (podstawa ** potega)
+        
+        
+        else:
+            liczba10 += int(cyfra) * (podstawa ** potega)
         potega -= 1
 
 
@@ -49,7 +54,16 @@ def zamiana2():
     podstawa = 0
     while podstawa < 2 or podstawa > 16:
         podstawa = int(input("Podaj podstawę: "))
-    # pass
+    if podstawa > 9:
+        for i in liczba:
+            if ord(i) > 70:
+                print("Zły format danych wejsciowych")
+                return 0
+    else:
+        for i in liczba:
+            if int(i) >= podstawa:
+                print("Liczba nie moze skladac sie z cyfr > podstawy")
+                return 0
 
     print("Wynik konwersji: {}({}) = {}(10)".format(
         liczba, podstawa, other2dec(liczba, podstawa)))
@@ -58,7 +72,7 @@ def zamiana2():
 def main(args):
     print("Zamiana liczby dziesiętnej na liczbę o podanej podstawie "
           "<2;16> lub odwrotnie. ")
-    zamiana1()
+    # zamiana1()
     zamiana2()
     return 0
 
