@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-31T12:14:47+01:00
+
+====== Kompresja ======
+Created środa 31 styczeń 2018
+
+Unikod (ang. Unicode) – komputerowy zestaw znaków mający w zamierzeniu obejmować wszystkie pisma używane na świecie. Definiują go dwa standardy – Unicode oraz ISO 10646. Znaki obu standardów są identyczne. Standardy te różnią się w drobnych kwestiach, m.in. Unicode określa sposób składu.
+
+Rozwijany jest przez konsorcjum, w którego skład wchodzą ważne firmy komputerowe, producenci oprogramowania, instytuty naukowe, agencje międzynarodowe oraz grupy zainteresowanych użytkowników. Konsorcjum współpracuje z organizacją ISO.
+
+Kod Morse’a to sposób reprezentacji alfabetu, cyfr i znaków specjalnych za pomocą dźwięków, błysków światła, impulsów elektrycznych lub znaków popularnie zwanych kreską i kropką.
+
+SOS:
+000111000   (***_ _ _ ***)
+
+== Kompresja stratna i bezstratna ==
+Kompresja dzieli się na bezstratną – w której z postaci skompresowanej można odzyskać identyczną postać pierwotną oraz stratną – w której takie odzyskanie jest niemożliwe, jednak główne właściwości zostają zachowane. Np. jeśli kompresowany jest obrazek, nie widać znaczących różnic w stosunku do oryginału. Pomimo to może się już nie nadawać do dalszej przeróbki czy do wydruku, gdyż w tych zastosowaniach wymaga się zachowania innych właściwości.
+
+Archiwum – plik otrzymywany w procesie archiwizacji (często łączonej z kompresją) danych. Archiwa przygotowywane są przez programy archiwizujące. Celem archiwizacji jest umieszczenie wybranych plików w jednym, dużym pliku, zwanym archiwum. Obecnie, bardzo często łączy się archiwizowanie z kompresją, co powoduje także otrzymanie mniejszego rozmiaru archiwum wyjściowego, w porównaniu z sumą rozmiarów plików wejściowych. (Kompresja bezstratna - np. tekst zapisany .docx,.pptx,.zip,.png)
+
+Kompresja stratna - np multimedia (.jpeg,.jpg)
+
+Grafika rastrowa jest kompresowana.
+
+Formaty plików wideo:
+MKV - Matroska
+AVI
+DVD
+
+
+MPEG - patrz wikipedia!
+
+Wypisz jakie formaty stosujemy do kompresowania dźwieków!
+
