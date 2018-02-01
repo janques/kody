@@ -1,4 +1,4 @@
-Content-Type: text/x-zim-wiki
+﻿Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-01-31T12:14:47+01:00
 
@@ -32,4 +32,15 @@ DVD
 MPEG - patrz wikipedia!
 
 Wypisz jakie formaty stosujemy do kompresowania dźwieków!
+
+
+Formaty stosowane do kompresowania dźwięków:
+1. MP1, MP2, MP3
+2. WMA (Windows Media Audio)
+3. MP3PRO
+4. OGG Vorbis
+5. AAC (Advanced Audia Coding)
+6. A/52 (Dolby Digital, AC3)
+7. Musepack (MPC)
+8. Adaptive Transform Acoustic Coding (ATRAC)
 
