@@ -1,4 +1,4 @@
-Content-Type: text/x-zim-wiki
+﻿Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-02-02T11:11:08+01:00
 
@@ -6,8 +6,13 @@ Creation-Date: 2018-02-02T11:11:08+01:00
 Created piątek 02 luty 2018
 
 The rain in Spain falls mainly on the plain. ⇒ 44 znaki
-The rain <3,3>Sp<9,3>falls m<11,3>ly on t<34,3>pl<15,3>. ⇒ 
+The rain <3,3>Sp<9,3>falls m<11,3>ly on t<34,3>pl<15,3>. ⇒ 34 znaki
 
-Rc = Vk / Vnk * 100
+Rc = 34 / 44 * 100 = 77,27%
+
+
+Rc = Vk / Vnk * 100  (współczynnik kompresji = skompresowane / nieskompresowane)
+
+
 ile znaków wstecz ⇒ 6 bitów
 długość ciągu ⇒ 2 bity
