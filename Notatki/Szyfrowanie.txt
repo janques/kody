@@ -18,4 +18,18 @@ Do odszyfrowania szyfrogramu potrzebny jest **algorytm szyfrowania **oraz** kluc
 
 
 === Podstawieniowe ===
-Szyfr Cezara
+Szyfr Cezara, klucz to odległość zastępnika.
+
+== Przestawieniowe ==
+Zapis tekstu w wierszach o ustalonej długości.
+Klucz to ilość kolumn, na które dzielimy tekst
+
+
+TOBEORNOTTOBETHATISTHEQUESTIONAND
+
+TOBEORNOTT
+OBETHATIST
+HEQUESTION
+AND.......
+
+TOHAOBENBEQDETU.OHE.
