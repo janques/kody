@@ -28,11 +28,14 @@ def deszyfruj(szyfrogram, klucz):
         ascii = ord(znak) - klucz
         if ord(znak) == 32:
             ascii = 32
-        if ascii > 90 and ascii < 97:
-            ascii -= 26
-        elif ascii > 122:
+        if ascii < 65 and ascii != 32:
+            ascii += 26
+        if ascii > 90 and ascii < 97 and ascii != 32:
+            ascii += 26
+        if znak.isdigit():
             ascii -= 26
         tekst += chr(ascii)
+
     return tekst
 
 # obsłużyć małe i duże litery

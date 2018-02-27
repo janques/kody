@@ -1,4 +1,4 @@
-Content-Type: text/x-zim-wiki
+﻿Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-02-06T12:59:03+01:00
 
@@ -36,6 +36,7 @@ AND.......
 TOHAOBENBEQDETU.OHE.
 
 VCBIU FHCDUD MHVW SURVWB
+vcbiu fhcdud mhvw survwb
 
 == Szyfrowanie asymetryczne ==
 - wczytywanie stron internetowych 
