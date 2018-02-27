@@ -34,3 +34,18 @@ HEQUESTION
 AND.......
 
 TOHAOBENBEQDETU.OHE.
+
+VCBIU FHCDUD MHVW SURVWB
+
+== Szyfrowanie asymetryczne ==
+- wczytywanie stron internetowych 
+protokół https
+SSL ⇒ TLS
+Certyfikat to tożsamość serwera.
+Pretty Good Privacy
+Kryptografia klucza publicznego (ciąg cyfr podawany do publicznej wiadomości)
+Algorytm RSA
+Podpis elektroniczny
+
+
+SSH
