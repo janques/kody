@@ -1,1 +1,1 @@
-Moje pierwsze repozytorium
+Moje pierwsze repozytorium.

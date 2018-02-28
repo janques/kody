@@ -1,10 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
 Jan Kielczewski urodzony 11 lipca 2000 roku w Sandomierzu
 1) Szyfr Cezara:
 szyfrogram: Mdq Nlhofchzvnl xurgcrqb 44 olsfd 5333 urnx z Vdqgrplhucx
 klucz: 3
 
 2) Szyfr przestawieniowy:
-szyfrogram: Jie z1p0o ozaewuo1c0kSmunlsrn a0uai. ckoyl ne.Kzid i2rwdr.
+szyfrogram: Jie z1p0o ozaewuo1c0kSmunlsrn a0uai. ckoyl   ne.Kzid i2rwdr.
 klucz: 5
 
 3) Szyfr Vigener'a:
