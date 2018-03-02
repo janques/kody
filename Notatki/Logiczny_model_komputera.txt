@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-02T11:07:20+01:00
+
+====== Logiczny model komputera ======
+Created piątek 02 marzec 2018
+
+== Architektura von Neumanna ==
+Pierwszy składnik to procesor (logiczna jednostka arytmetyczna).
+
+Napięcie od 3 do 5 Voltów - logiczna 1
+Napięcie około 0,2 Volta - logiczne 0
+
+Procesor składa się z rejestrów (komórki, w których są zapisywanie różne dane)
+Rozmiary rejestrów współczesnego procesora to 64 bity.
+
+Drugi składnik to pamieć. (Pamięć RAM- swobodnego dostępu).
+
+Trzeci składnik: jednostka sterująca - synchronizuje pracę logicznych modułów komputera za pomocą szyny systemowej(daje podstawowe taktowanie wykonywania operacji [Mhz])
+
+Mamy jeszcze szynę danych (przesyła dane) i szyne adresową (decyduje gdzie trafiają dane).
+
+Część danych bierze się z pamięci ROM (zachowuje dane na stałe).
+
+BIOS - podstawowy system wyjścia i wejścia.
+
+EFI (UEFI) interfejs pomiędzy systemem operacyjnym a firmware, opracowywany jako następca BIOS-u w komputerach osobistych.
+
+Urządzenia wyjścia i wejścia (czwarty składnik) (pendrive, dyski twarde)
