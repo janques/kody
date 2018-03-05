@@ -1,4 +1,4 @@
-Content-Type: text/x-zim-wiki
+﻿Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-03-02T11:07:20+01:00
 
@@ -26,4 +26,4 @@ BIOS - podstawowy system wyjścia i wejścia.
 
 EFI (UEFI) interfejs pomiędzy systemem operacyjnym a firmware, opracowywany jako następca BIOS-u w komputerach osobistych.
 
-Urządzenia wyjścia i wejścia (czwarty składnik) (pendrive, dyski twarde)
+Urządzenia wyjścia i wejścia (czwarty składnik) (pendrive, dyski twarde).
