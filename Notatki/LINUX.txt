@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-13T12:57:57+01:00
+
+====== LINUX ======
+Created wtorek 13 marzec 2018
+
+===== LINUX nie oznacza systemu - oznacza jądro. =====
+
+
+System własnościowy i zamknięty (Windows,Mac OS)
+
+
+Otwarte oprogramowanie.
+
+Dystrybucja Linuxa:
+- jądro 
+- oprogramowanie dodatkowe
+
+
+Rufus
+
+Partycja - logiczny, wydzielony obszar dysku twardego, który może być sformatowany przez system operacyjny w odpowiednim systemie plików.
