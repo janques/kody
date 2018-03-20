@@ -21,3 +21,5 @@ Dystrybucja Linuxa:
 Rufus
 
 Partycja - logiczny, wydzielony obszar dysku twardego, który może być sformatowany przez system operacyjny w odpowiednim systemie plików.
+
+

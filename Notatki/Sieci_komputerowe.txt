@@ -1,0 +1,84 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-20T12:55:02+01:00
+
+====== Sieci komputerowe ======
+Created wtorek 20 marzec 2018
+
+Host- dowolna maszyna (komputer, karta sieciowa, modem itp.) uczestnicząca w wymianie danych lub udostępniająca usługi sieciowe poprzez sieć komputerową za pomocą protokołu komunikacyjnego TCP/IP oraz posiadająca własny adres IP.
+
+
+Serwer - strona świadcząca usługę lub udostępniająca zasoby.
+
+Klient - strona żądająca dostępu do danej usługi lub zasobu.
+
+
+==== LAN ====
+Lokalna sieć komputerowa
+
+
+Skrętka jest zakończona wtyczką RJ45
+
+
+=== Switch ===
+Przełącznik sieciowy
+
+
+Topologia gwiazdy (ang. star network) – sposób połączenia komputerów w sieci komputerowej, charakteryzujący się tym, że kable sieciowe połączone są w jednym wspólnym punkcie, zwanym punktem dostępu (ang. access point), w którym znajduje się koncentrator lub przełącznik.
+
+
+Żeby wyjśc z LANA potrzeba routera.
+
+WAN - sieć rozległa (wykraczająca poza miasto, kraj, kontynent)
+
+Router ma dwa interfejsy (zewnętrzny i wewnętrzny)
+
+
+Każdy komputer posiada adres IP ( 4 liczby dziesiętne zapisane z kropkami)
+Domyślna trasa - brama ( w praktyce adres routera)
+Adres serwera DNS
+
+
+Internet - sieć sieci
+
+Sieć szkieletowa -  sieć telekomunikacyjna, w tym sieć komputerowa, przez którą przesyłana jest największa liczba informacji. Łączy zwykle mniejsze sieci (sieci lokalne), grupy robocze, przełączniki, sieci rozległe. Urządzenia wchodzące w strukturę sieci szkieletowej z reguły odpowiedzialne są za funkcjonowanie całej sieci na określonym obszarze.
+
+
+Komputery muszą stosować język protokołowy, aby się ze sobą porozumiewać. (np. protokół HTTP, FTP, TCP, IP)
+
+Na jednym serwerze może być uruchomionych wiele usług sieciowych i żeby się nie pomyliły są uruchamiane na różnych portach.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
