@@ -49,6 +49,23 @@ Komputery muszą stosować język protokołowy, aby się ze sobą porozumiewać.
 Na jednym serwerze może być uruchomionych wiele usług sieciowych i żeby się nie pomyliły są uruchamiane na różnych portach.
 
 
+Model TCP/IP – teoretyczny model warstwowej struktury protokołów komunikacyjnych.
+
+== Protokoły na warstwie aplikacji ==
+HTTP, HTTPS,FTP
+POP, IMAP - protokoły do odbierania poczty
+SSH
+DNS - nie ma bez niego Internetu (baza rozproszona)
+
+
+
+
+TPL- domeny najwyższego poziomu (.com,.edu,.gov)
+Adres URL
+Poddomeny to nazwy zarezerwowane dla firm lub osób prywatnych. (.gov.pl)
+www - nazwa hosta
+
+
 
 
 
