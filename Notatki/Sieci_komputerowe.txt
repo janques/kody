@@ -1,4 +1,4 @@
-Content-Type: text/x-zim-wiki
+﻿Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-03-20T12:55:02+01:00
 
@@ -97,7 +97,7 @@ Pierwsze 3 cyfry to adres sieci.
 
 192.168.3.255 ⇒ broadcast
 
-Mechanizm ------ Network Address Translation ------- zamiana adresu prywatnego na publiczny i na odwrót ( przez router)
+Mechanizm ------ Network Address Translation ------- zamiana adresu prywatnego na publiczny i na odwrót ( przez router).
 
 
 
