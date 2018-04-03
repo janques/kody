@@ -1,4 +1,4 @@
-Content-Type: text/x-zim-wiki
+﻿Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-02-27T12:58:43+01:00
 
@@ -8,4 +8,4 @@ Created wtorek 27 luty 2018
 Zaszyfruj swoje dane osobowe, tj.:
 imię, nazwisko, data  urodzenia, miejsce urodzenia przy użyciu 3 poznanych szyfrów, tj. szyfru Cezara, szyfru podstawieniowego oraz szyfru Vigenere'a.
 
-W odpowiedzi podaj szyfrogram i klucze.
+W odpowiedzi podaj szyfrogram i klucze!
