@@ -15,7 +15,6 @@ def czytaj_dane(plik, separator=","):
         tresc = csv.reader(plikcsv, delimiter=separator)
         for rekord in tresc:
             dane.append(rekord)
-    print(dane)
     return dane
 
 
@@ -28,9 +27,18 @@ def main(args):
         cur.executescript(plik.read())
     
     
-    dane = czytaj_dane('miasta.csv')
-    dane.pop(0)  # usuń pierwszy rekord z listy
-    cur.executemany('INSERT INTO miasta VALUES(?, ?, ?)', dane)
+    # ~dane = czytaj_dane('miasta.csv')
+    # ~dane.pop(0)  # usuń pierwszy rekord z listy
+    # ~cur.executemany('INSERT INTO miasta VALUES(?, ?, ?)', dane)
+    
+    
+    dane = czytaj_dane('dane_demograficzne.csv', separator=',')
+    dane.pop(0)
+    cur.executemany('INSERT INTO dane_demograficzne VALUES(?, ?, ?, ?, ?, ?)', dane)
+    
+    
+    
+    # print(dane)
     
     con.commit()
     con.close()
