@@ -9,15 +9,30 @@ import sqlite3
 def kwerenda1(cur):
     
     cur.execute("""
-        SELECT klasa, AVG(ocena) AS srednia FROM oceny
-        INNER JOIN uczniowie ON uczniowie.id = oceny.id_uczen
+        SELECT klasa, przedmiot, AVG(ocena) AS srednia FROM oceny
+        INNER JOIN przedmioty ON przedmioty.id=oceny.id_przedmiot
+        INNER JOIN uczniowie ON uczniowie.id=oceny.id_uczen
         INNER JOIN klasy ON uczniowie.id_klasa=klasy.id
-        GROUP BY klasy.id
-        ORDER BY srednia DESC
+        WHERE przedmiot = 'matematyka'
+        GROUP BY klasa
+        ORDER BY srednia DESC 
     """)
     
+
+
+    # SELECT przedmiot, AVG(ocena) AS srednia FROM oceny
+    # INNER JOIN przedmioty ON przedmioty.id=oceny.id_przedmiot
+    # GROUP BY id_przedmiot
+    # ORDER BY srednia DESC
     
     
+    # SELECT klasa, AVG(ocena) AS srednia FROM oceny
+    # INNER JOIN uczniowie ON uczniowie.id = oceny.id_uczen
+    # INNER JOIN klasy ON uczniowie.id_klasa=klasy.id
+    # GROUP BY klasy.id
+    # ORDER BY srednia DESC    
+
+
     # WITH srednie AS (
     # SELECT nazwisko, imie, AVG(ocena) AS srednia FROM uczniowie
     # INNER JOIN oceny ON uczniowie.id = oceny.id_uczen
