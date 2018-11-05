@@ -62,12 +62,15 @@ def main(args):
         ile = ile_kolumn(cur, tab)
         dane = czytaj_dane(tab + roz, separator=',')
         ile_d = len(dane[0])
+        
+        
         if ile > ile_d:
             dane2 = [] # lista pomocnicza
             for r in dane:
                 r.insert(0, None)
                 dane2.append(r)
             dane = dane2
+            
         ile = len(dane[0])
         if naglowki:
             dane.pop(0) # usunięcie rekordu z nagłówkami
