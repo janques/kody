@@ -7,24 +7,25 @@
 
 from peewee import *
 
-baza = SqliteDatabase('quiz.db')
+baza_nazwa = 'quiz.db'
+baza = SqliteDatabase(baza_nazwa)
 
 class BaseModel(Model):
     class Meta:
         database = baza
         
         
-class Kategoria(BaseModel):
-    kategoria = CharField()
-    knr = ForeignKeyField(kategoria, related_name='pytania', null=False)
+class Kategoria(BazaModel):
+    kategoria = CharField(null=False)
 
-        
-class Pytanie(BaseModel):
-    pytanie = CharField()
-    # odpok = CharField()
-    
-class Odpowiedz(BaseModel):
-    odpowiedz = CharField()
+
+class Pytanie(BazaModel):
+    pytanie = CharField(null=False)
+    kategoria = ForeignKeyField(Kategoria, related_name='pytania')
+
+
+class Odpowiedz(BazaModel):
+    odpowiedz = CharField(null=False)
     pytanie = ForeignKeyField(Pytanie, related_name='odpowiedzi')
-    odpok = BooleanField(default=0)
+    odpok = BooleanField()
 
