@@ -1,0 +1,13 @@
+{%extends "szablon.html"%}
+{%block tytul%}Lista pytań{%endblock%}
+{%block h1%}A oto one{%endblock%}
+{%block tresc%}
+<h2>Pytania:</h2>
+<ol>
+    {%for p in query%}
+    
+        <li>{{p.pytanie}}</li>
+
+    {%endfor%}
+</ol>
+{%endblock%}
