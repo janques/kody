@@ -55,6 +55,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
+            {% with komunikaty = get_flashed_messages(with_categories=true) %}
+            {% if komunikaty %}
+                {% for kat, kom in komunikaty %}
+                <p class="{{ kat }}">{{ kom }}</p>
+                {% endfor %}
+            {% endif %}
+            {% endwith %}
             {%block tresc%}{%endblock%}
           </div>
         </div>
