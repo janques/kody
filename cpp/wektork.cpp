@@ -17,6 +17,7 @@ class Wektor {
     public:
         void pobierz(int);
         void wypisz();
+        void dlugosc();
         friend Wektor dodaj(Wektor, Wektor);
         friend Wektor iloczyn(Wektor, Wektor);
     
