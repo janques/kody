@@ -10,14 +10,11 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-	Car s1 = Car();
-    s1.dodaj();
-    s1.dane();
     Car s2 = Car();
-    int ile =2;
+    int ile = 2;
+    s2.dodaj();
+    s2.dane();
     s2.laduj(ile);
-    s2.pasazerowie();
-
+    s2.pasazerowie(ile);
 	return 0;
 }
-

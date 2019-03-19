@@ -21,6 +21,6 @@ class Car{
         void dodaj();
         void dane();
         void laduj(int);
-        void pasazerowie();
+        void pasazerowie(int);
 };
 #endif
